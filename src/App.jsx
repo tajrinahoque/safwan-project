@@ -1,12 +1,15 @@
 import React from 'react'
-import  Navbar from './Layouts/Navbar'
+import Navbar from './Layouts/Navbar'
+
 
 
 
 const App = () => {
   return (
 
-  <Navbar/>
+  <div>
+    <Navbar/>
+  </div>
 
 
   )
