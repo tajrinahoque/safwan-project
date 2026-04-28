@@ -12,11 +12,18 @@ export default {
         'secondary':"#E5745D",
       },
       fontFamily:{
-        "jost":["Jost", "sans-serif"]
+        "jost":["Jost", "sans-serif"],
+        "vol":["Vollkorn", "serif"]
+
       },
       maxWidth:{
         "container":"1170px"
+      },
+            backgroundImage: {
+        'banner': "url('')",
+        
       }
+
 
     },
   },

@@ -14,16 +14,18 @@ const Navbar = () => {
   return (
     <nav>
       <Container>
-       <Flex className="justify-between">
+       <Flex className="justify-between items-center">
          <div>
           <Images src={Logo}/>
         </div>
         <div>
           <ul className='flex gap-x-10'>
             <Listitems text="Home"/>
-            <Listitems text="Home"/>
-            <Listitems text="Home"/>
-            <Listitems text="Home"/>
+            <Listitems text="Pages"/>
+            <Listitems text="Services"/>
+            <Listitems text="Blog"/>
+            <Listitems text="Contact"/>
+
 
           </ul>
           </div>

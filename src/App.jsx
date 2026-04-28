@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Layouts/Navbar'
+import Banner from './Layouts/Banner'
 
 
 
@@ -9,6 +10,7 @@ const App = () => {
 
   <div>
     <Navbar/>
+    <Banner/>
   </div>
 
 
