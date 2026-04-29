@@ -1,15 +1,13 @@
 import React from 'react'
 import Container from '../Components/Container'
 import Button from '../Components/Button'
-import Images from '../Components/Images'
-import Bannerimage from '../assets/banner.jpg'
+
 
 
 const Banner = () => {
   return (
     <section className='bg-primary relative group py-[221px]'>
-      <div className='absolute top-0 right-0 w-5/12 h-full '>
-
+      <div className='absolute top-0 right-0 w-5/12 h-full bg-red-500 bg-[url(./)]'>
       </div>
         <Container>
             <div>
