@@ -27,7 +27,7 @@ const About = () => {
                 
                 </div>
                 <div className='w-1/2'>
-                <Heading text="About Me"/>
+                <Heading className="pl-[82px] before:left-[67px] after:left-[28px] after:top-[11px]" text="About Me"/>
                 <Subheading text="I Enjoy Solving Problems With Scalable Solutions"/>
                 <p className='w-[570px] font-jost font-normal text-base text-primary pt-1 pb-[50px]'>Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur
 aeci velit, sed quia non numquam eius modi tempora incidunt lao

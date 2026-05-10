@@ -4,6 +4,7 @@ import Banner from './Layouts/Banner'
 import Service from './Layouts/Service'
 import About from './Layouts/About'
 import Project from './Layouts/Project'
+import Portfolio from './Layouts/Portfolio'
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
     <Service/>
     <About/>
     <Project/>
+    <Portfolio/>
   </div>
 
 

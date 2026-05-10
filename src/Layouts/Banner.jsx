@@ -10,8 +10,8 @@ import BannerImage from '../assets/banner.jpg'
 const Banner = () => {
   return (
     <section className='bg-primary relative group py-[221px]'>
-      <div className='absolute top-0 right-[-100px] w-5/12 opacity-0 group-hover:right-0 group-hover:opacity-100 duration-300'>
-      <Images className="w-full h-[850px]" src={BannerImage}/>
+      <div className='absolute top-0 right-[30px] w-5/12 opacity-0 group-hover:right-0 group-hover:opacity-100 duration-300'>
+      <Images className="w-lvw h-[850px]" src={BannerImage}/>
       </div>
         <Container>
             <div>
