@@ -4,10 +4,13 @@ import Heading from '../Components/Heading'
 import Subheading from '../Components/Subheading'
 import Listitems from '../Components/Listitems'
 import Flex from '../Components/Flex'
+import Images from '../Components/Images'
+import port_one from '../assets/about-1.jpg'
+import Portfoliocard from '../Components/Portfoliocard'
 
 const Portfolio = () => {
   return (
-    <section>
+    <section className='py-[120px]'>
         <Container>
             <Flex className="flex-col items-center">
                 <Heading text="My Portfolio" />
@@ -22,6 +25,16 @@ const Portfolio = () => {
 
             </ul>
             </Flex>
+            <Flex className="flex-wrap gap-y-[30px] gap-x-[30px]">
+            <Portfoliocard src={port_one} title="Motion Graphics" subtitle="Website"/>
+            <Portfoliocard src={port_one} title="Motion Graphics" subtitle="Website"/>
+            <Portfoliocard src={port_one} title="Motion Graphics" subtitle="Website"/>
+            <Portfoliocard src={port_one} title="Motion Graphics" subtitle="Website"/>
+
+            </Flex>
+
+
+            
         </Container>
     </section>
   )

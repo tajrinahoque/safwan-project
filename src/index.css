@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 .one{
-    color: #00423eb3;
+    color: rgba(255, 255, 255,.7);
    
 }
